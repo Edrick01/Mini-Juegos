@@ -14,17 +14,17 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #202020;
-  padding: 5px 30px;
+  padding: 20px 30px 60px 30px;
   border-radius: 30px;
   width: 80vw;
-  max-width: 600px;
+  max-width: 800px;
 }
 h1 {
   font-size: 40px;
   text-align: center;
   background-color: #161616;
   border-radius: 23px;
-  padding: 40px 20vw;
+  padding: 40px;
   color: white;
   margin-bottom: 20px;
   box-shadow: #000000 3px 5px 0px;
@@ -38,12 +38,18 @@ a {
 }
 ul {
   padding: 0;
-  margin: 0 20px 0 0;
+  margin: 0 0 0 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 li {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 20px 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,12 +57,14 @@ li {
 }
 
 .game-list {
-  margin: 20px 0 0 0;
+  width: 80%;
   padding: 20px 10vw;
   border-radius: 15px;
   background-color: aliceblue;
   box-shadow: #585858 3px 5px 0px;
   transition: transform 0.3s ease;
+  text-align: center;
+  display: block;
 }
 
 .game-list:hover {
